@@ -1,0 +1,3 @@
+// Windows resource: application icon
+// Resource ID 1 (lowest numeric ID) → Explorer/taskbar default app icon
+1 ICON "ssh-tool.ico"

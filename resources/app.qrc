@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ssh-tool.png</file>
+    </qresource>
+</RCC>

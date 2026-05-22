@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "id": "prod-web-01",
+      "name": "Production Web 01",
+      "host": "192.168.1.10",
+      "port": 22,
+      "username": "admin",
+      "auth": "key",
+      "keyPath": "C:/Users/me/.ssh/id_ed25519",
+      "keyPassphrase": "",
+      "password": "",
+      "initialDirectory": "/var/www",
+      "color": "#3a7bd5",
+      "group": "Production"
+    },
+    {
+      "id": "dev-db",
+      "name": "Dev Database",
+      "host": "dev.example.com",
+      "port": 2222,
+      "username": "developer",
+      "auth": "password",
+      "password": "",
+      "initialDirectory": "/home/developer",
+      "color": "#7bd53a",
+      "group": "Development"
+    }
+  ]
+}

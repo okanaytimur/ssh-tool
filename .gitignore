@@ -53,3 +53,22 @@ vcpkg_installed/
 Thumbs.db
 desktop.ini
 CopyQ.*
+
+# Installer build output (Inno Setup ISCC)
+installer/out/
+*.iss.bak
+
+# Release binaries (Debian packages, MSI/EXE installers) — release sayfasına eklenir, repo'ya değil
+*.deb
+*.rpm
+*.msi
+ssh-tool-setup-*.exe
+
+# Misc private/credential files that shouldn't ever be committed
+*.pem
+*.key
+id_rsa
+id_ed25519
+id_ecdsa
+*.pfx
+*.p12
